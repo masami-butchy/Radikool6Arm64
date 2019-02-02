@@ -8,7 +8,7 @@ RUN mkdir /Radikool6/ && \
     git clone https://github.com/ez-design/Radikool6.git src && \
     cd src && \
     dotnet restore && \
-    dotnet publish -c release -o /Radikool6/
+    dotnet publish -c release -o /Radikool6/ -r linux-arm
 EXPOSE 5000
 WORKDIR /Radikool6/
 CMD ["dotnet", "Radikool6.dll"]
