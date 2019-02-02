@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+}
+
+.sidebar{
+  width: 25vw;
+  box-sizing: border-box;
+  padding: .5rem;
+}
+
+.timetable{
+  width: 75vw;
+  box-sizing: border-box;
+  padding: .5rem;
+}
+
+.station-button{
+  width: 100%;
+  text-align: left;
+  color: #999;
+
+  &.selected{
+    color: #3f51b5;
+  }
+}
+@media screen and (max-width: 767px){
+  .container{
+    flex-direction: column;
+  }
+  .sidebar, .timetable {
+    width: 100vw;
+  }
+
+
+
+}

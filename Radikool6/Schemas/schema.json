@@ -1,0 +1,69 @@
+{
+  "Configs": {
+    "columns": {
+      "Id": "text",
+      "Content": "text"
+    },
+    "primaryKey": ["Id"]
+  },
+  "Hashes": {
+    "columns":{
+      "TableName": "text",
+      "Hash": "text"
+    },
+    "primaryKey": ["TableName"]
+  },
+  "Stations":{
+    "columns": {
+      "Id": "text",
+      "RegionId": "text",
+      "RegionName": "text",
+      "Area": "text",
+      "Type": "text",
+      "Code": "text",
+      "Name": "text",
+      "Sequence": "int",
+      "MediaUrl": "text",
+      "TimetableUrl": "text"
+    },
+    "primaryKey": ["Id"]
+  },
+  "Programs":{
+    "columns": {
+      "Id": "text",
+      "StationId": "text",
+      "Start": "text",
+      "End": "text",
+      "Title": "text",
+      "Cast": "text",
+      "Description": "text",
+      "TsNg": "text"
+    },
+    "primaryKey": ["Id"]
+  },
+  "Reserves": {
+    "columns": {
+      "Id": "text",
+      "Content": "text"
+    },
+    "primaryKey": ["Id"]
+  },
+  "ReserveTasks": {
+    "columns": {
+      "Id": "text",
+      "Start": "text",
+      "End": "text",
+      "ReserveId": "text"
+    },
+    "primaryKey": ["Id"]
+  },
+  "Libraries": {
+    "columns": {
+      "Id": "text",
+      "FileName": "text",
+      "Path": "text",
+      "ProgramJson": "text"
+    },
+    "primaryKey": ["Id"]
+  }
+}
