@@ -1,4 +1,4 @@
-FROM arm64v8/buildpack-deps:stretch-scm
+FROM arm32v7/buildpack-deps:stretch-scm
 MAINTAINER you<info@ez-design.net>
 
 RUN mkdir /Radikool6/ && \
