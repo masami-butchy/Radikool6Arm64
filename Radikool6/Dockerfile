@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.2-sdk-stretch-arm32v7
+FROM microsoft/dotnet:2.2-sdk
 MAINTAINER you<info@ez-design.net>
 
 RUN mkdir /Radikool6/ && \
